@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(3, 3, 3);
+    color: white;
+    padding:20px;
+}
+button:hover{
+    background-color: rgb(166, 230, 18);
+    cursor:pointer;
+    
+
+}
+li,ul,h1{
+    display: inline;
+
+}
+ul{
+    margin-left: 55%;
+   color: white;
+   
+
+}
+
+.title{
+    margin-left:8%;
+    margin-top: 600px;
+    width:600px
+}
+.head{ 
+    color: white;
+}
+
+
+
+.text{
+    color: red;
+}
+
+.with{
+    width: 600px;
+    height: 300px;
+}
+.collection{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align: center;
+    display: inline-block;
+    color: rgb(3, 255, 79);
+}    
+.collection img{
+    width: 400px;
+    height: 300px;
+    border:2px solid red;
+    box-shadow: 4px 7px 7px 0px rgb(192, 52, 52);
+    border-radius: 13px;
+    cursor:pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.collection img:hover{
+    filter:drop-shadow();
+    transform: scale(1.03);
+
+}
+.mask{
+    margin-top: 100px;
+    color: rgb(240, 8, 20);
+    text-align: center;
+    display:block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 1px 2px black;
+    font-size: larg
+
+}
+.select{
+    table{
+        font-size: large;
+        text-transform: uppercase;
+    margin-top:100px;
+    color:rgb(7, 7, 7);
+    text-align: justify;
+    text: size adjust 100px; 
+    background-color: rgba(55, 228, 205, 0.842);
+    width: 500px;
+    height: 300px;
+    
+    
+}
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.sucess{
+    
+    color: rgb(255, 255, 255);
+    background-color: aqua auto;
+     margin-top: 500px;
+}
+.contact{
+    margin-top: 600px;
+    place-content: 20px;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+.con1{
+    text-transform: initial;
+}
+.fa-facebook{
+    font-size: 500px;
+    color: white;
+}
